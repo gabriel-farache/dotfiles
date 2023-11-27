@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  git-prompt:
+    container_name: git-prompt
+    image: quay.io/p/git-prompt:latest
+    ports:
+      - target: 8080
+        published: 8080

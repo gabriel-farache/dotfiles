@@ -1,0 +1,11 @@
+resources:
+  - p-clone-build-push-pipeline.yaml
+  - p-git-event-triggerbinding.yaml
+  - p-git-repo-eventlistener.yaml
+  - p-tekton-triggers-admin-rolebinding.yaml
+  - p-tekton-triggers-admin-serviceaccount.yaml
+  - p-clone-push-serviceaccount.yaml
+  - p-image-registry-secret.yaml
+  - p-ingress.yaml
+  - p-run-clone-build-push-triggertemplate.yaml
+  - p-tekton-triggers-admin-role.yaml

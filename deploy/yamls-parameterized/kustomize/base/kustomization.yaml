@@ -1,0 +1,4 @@
+resources:
+  - git-prompt-deployment.yaml
+  - git-prompt-service.yaml
+  - p-ingress.yaml
